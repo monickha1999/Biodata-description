@@ -1,0 +1,72 @@
+<html>
+<head>
+<title>Member description</title>
+</head>
+<style>
+	.text{
+         margin-top: 5%;
+         color: black;
+         text-decoration: underline;
+         position: relative;
+         border: 5px dotted red;
+         border-radius: 25px;
+
+     }
+     h1 {
+     	background-color: #EBEE53 ;
+     	background-position: absolute;
+     }
+     .image{
+     	margin-top: 2%;
+     	width: 100%;
+     	height: 70%;
+     	border: 50px 50px solid black;
+
+     	}
+     .overlay{
+     	opacity: 0;
+     	background-color: #008CBA;
+     	height: 100%;
+     	transition-duration: 1s;
+     	
+     	width: 100%;
+  		position: absolute;
+       bottom: 0;
+       left: 0;
+       top: 5;
+       right: 0;
+     }
+     .container{
+     	position: relative;
+     	width: 50%;
+     	border: 50px 50px solid black;
+     }
+     .container:hover .overlay{
+     	opacity: 0.95;
+
+     }
+     .texting{
+     		
+     	color: white;
+ 	   font-size: 20px;
+ 	   transform: translate(-0px,70px);
+
+     }
+
+body {background-color: #FBBD47;}
+</style>
+<body>
+	<div class="text">
+	<center><h1>Description</h1></center>
+</div>
+<div class="container">
+	<img src="stevejobs.jpg" alt="Steve jobs" class="image">
+	
+	<div class="overlay">
+		<div class="texting">Hi, I am <b>Steve Jobs</b>. I was born in 1955 and raised by adoptive parents in Cupertino, California. Though I was interested in engineering, my passions as a youth varied. After dropping out of Reed College, I worked as a video game designer at Atari and later went to India to experience Buddhism. In 1976, I helped launch Apple</div>
+	</div>
+</div>
+
+
+</body>
+</html>
